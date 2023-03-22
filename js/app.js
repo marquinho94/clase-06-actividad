@@ -12,4 +12,4 @@ function printVideo (crazyURL, ancho, alto, parentID){
     myCrazyVideo.render();
 }
 
-printVideo("https://www.youtube.com/watch?v=SskpYGyEDmU","800","600","myApp");
+printVideo("http://www.example.com/waterfall-video.mp4","800","600","myApp");
