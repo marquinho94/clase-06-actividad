@@ -15,7 +15,11 @@ export default class crazyVideo {
 
     render() {
         let myApp = document.getElementById(this.parentID);
-        const myCrazyVideo = myApp.innerHTML + "<Video  width=" + this.ancho + " height=" + this.alto + " controls> <source src=" + this.crazyURL +">" + " Your browser does not support the video tag. </video>";
+        const myCrazyVideo = myApp.innerHTML +`
+                                              <br>
+                                               <h3>Esto es un Video de prueba:</h3>
+                                               ` 
+        +"<Video  width=" + this.ancho + " height=" + this.alto + " controls> <source src=" + this.crazyURL +">" + " Your browser does not support the video tag. </video>";
         myApp.innerHTML = myCrazyVideo; 
 
 

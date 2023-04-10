@@ -15,6 +15,8 @@ export default class crazyIframe {
     render() {
         let myApp = document.getElementById(this.parentID);
         const myCrazyIframe = myApp.innerHTML + `
+                                                    <br>
+                                                    <h3>Esto es un Iframe desde youtube:</h3>
                                                     <iframe src="${this.crazyURL}"></iframe>
 
                                                 `;

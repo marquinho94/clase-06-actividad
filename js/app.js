@@ -12,7 +12,7 @@ function printVideo (crazyURL, ancho, alto, parentID){
     myCrazyVideo.render();
 }
 
-printVideo("https://samplelib.com/lib/preview/mp4/sample-5s.mp4","800","600","myApp");
+printVideo("https://samplelib.com/lib/preview/mp4/sample-5s.mp4","400","300","myApp");
 
 function printIframe (crazyURL, parentID){
 
